@@ -25,20 +25,12 @@
   },
   "repositories": [
     {
-      "type": "package",
-      "package": {
-        "name": "captcha-com/captcha",
-        "version": "4.9.9",
-        "source": {
           "url": "https://github.com/aangps01/captcha.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
-    }
+          "type": "vcs"
+   }
   ],
   "require": {
-    "captcha-com/captcha": "4.*",
+    "captcha-com/captcha": "4.x-dev",
     "php": ">=5.4.0"
   },
   "autoload": {
