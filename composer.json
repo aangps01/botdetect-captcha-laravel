@@ -30,7 +30,7 @@
    }
   ],
   "require": {
-    "captcha-com/captcha": "dev-master",
+    "captcha-com/captcha": "5.x-dev",
     "php": ">=5.4.0"
   },
   "autoload": {
